@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="utf-8">
+</head>
+<body>
+    <script>
+        function getParam(sname) {
+            var params = location.search.substr(location.search.indexOf("?") + 1);
+            var sval = "";
+            params = params.split("&");
+            for (var i = 0; i < params.length; i++) {
+                temp = params[i].split("=");
+                if ([temp[0]] == sname) { sval = temp[1]; }
+            }
+            return sval;
+        }
+        var numberSlide = getParam('number');
+        var nameSlide = getParam('name');
+
+        var sc = 0;
+        var wt;
+        function next() {
+            if (sc != 0) document.getElementById('p' + sc).remove();
+            if (sc == numberSlide) close();
+            else sc = Number(sc) + 1;
+            wt = '<div id="p' + sc + '" style="width:100%;"><a href="javascript:next();"><img src="projects/' + nameSlide + '/슬라이드' + sc + '.PNG" style="width:100%;" /></a><br /><a style="text-align:right;">' + sc + '/' + numberSlide + '</a></div>';
+            document.write(wt);
+            document.title = nameSlide + ' - ' + sc + '/' + numberSlide;
+        }
+        next();
+    </script>
+</body>
+</html>

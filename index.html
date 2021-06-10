@@ -1,0 +1,583 @@
+﻿<!DOCTYPE html>
+<html lang="kr" id="html">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>치킨무 포트폴리오</title>
+    <link rel="stylesheet" href="files/css/intro.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap');
+
+        html {
+            font-family: 'Noto Sans KR', sans-serif;
+            font-size: 0.07vw;
+            background-image: url('');
+            scroll-behavior: smooth;
+            width: 100%;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        body {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            cursor: url('img/icon.cur');
+        }
+
+        div {
+            display: inline-block;
+        }
+
+        .hd {
+            font-size: 25rem;
+            text-decoration: none;
+            list-style: none;
+            padding-left: 0;
+            float: left;
+            vertical-align: middle;
+            margin: 0 50rem 0 0;
+            line-height: 65rem;
+        }
+
+            .hd:hover {
+                color: rgba(71, 112, 174, 255);
+            }
+
+        .hhd {
+            position: relative;
+            padding-top: 0;
+        }
+
+        .hh {
+            width: 100%;
+            background: #FFFFFF95;
+            margin: 0;
+            padding: 0;
+            height: 65rem;
+            position: fixed;
+        }
+
+        a {
+            font-size: 15rem;
+        }
+
+        .text_tpfh {
+            writing-mode: vertical-rl;
+            text-orientation: mixed;
+        }
+
+        .h1 {
+            font-weight: 1000;
+            font-size: 85rem;
+        }
+
+        .h2 {
+            font-weight: 5000;
+            font-size: 65rem;
+        }
+
+        .lpc {
+            padding-top: 50rem;
+        }
+
+        a {
+            font-size: 20rem;
+        }
+
+        .tag {
+            font-weight: 1000;
+            font-size: 25rem;
+            padding: 6rem;
+            border-radius: 5rem;
+        }
+
+            .tag:hover {
+                color: rgba(71, 112, 174, 255);
+                background: #daefff;
+                border-radius: 10rem;
+            }
+
+        .skill {
+            padding-left: 15rem;
+            padding-right: 15rem;
+        }
+
+        .h {
+            color: rgba(71, 112, 174, 255);
+        }
+
+        .pt_button {
+            padding: 6rem;
+            border-radius: 5rem;
+        }
+
+            .pt_button:hover {
+                color: rgba(71, 112, 174, 255);
+                background: #daefff;
+            }
+
+        .bar {
+            color: #c8c8c8;
+            font-size: 15rem;
+        }
+
+        .webpro {
+            background-image: url('img/back.jpg');
+            background-position: center 65%;
+            width: 100%;
+            height: 100vh;
+            padding-top: 65rem;
+        }
+
+        .ckp {
+            color: #e2e2e2;
+        }
+
+        .hb {
+            text-shadow: 2rem 2rem 20rem #fff;
+            padding-left: 200rem;
+        }
+
+        .hbd {
+            transform: translateY(-300rem);
+        }
+
+        .about {
+            display: inline-block;
+        }
+
+        .int {
+            display: inline-block;
+            padding-left: 20rem;
+        }
+
+        .abtme {
+            padding-left: 200rem;
+        }
+
+        .tt {
+            padding-top: 10rem;
+            margin-bottom: 10rem;
+        }
+
+        .proti {
+            padding-left: 200rem;
+        }
+
+        .d {
+            padding-top: 50rem;
+        }
+
+        .int_a {
+            line-height: 40rem;
+        }
+
+        .back_box {
+            background-color: #daefff;
+            width: 250rem;
+            height: 350rem;
+            position: relative;
+        }
+
+        .abtme {
+            position: relative;
+        }
+
+        header {
+            z-index: 1000;
+        }
+
+        .ptf {
+            padding-top: 50rem;
+            text-align: left;
+        }
+
+            .ptf input {
+                font-family: 'Noto Sans KR', sans-serif;
+                cursor: pointer;
+                font-size: 15rem;
+                color: rgba(71, 112, 174, 255);
+                width: 142rem;
+                height: 42rem;
+                background-color: #FFF;
+                margin-top: 70rem;
+                border: 2rem solid rgba(71, 112, 174, 255);
+                border-radius: 10rem;
+            }
+
+                .ptf input:hover {
+                    background-color: rgba(71, 112, 174, 255);
+                    color: #FFF;
+                }
+
+            .ptf a {
+                font-size: 15rem;
+            }
+
+            .ptf .h3 {
+                font-weight: 500;
+                font-size: 30rem;
+            }
+
+        .h3 {
+            font-weight: 2500;
+            font-size: 30rem;
+        }
+
+        table {
+            border: 0;
+        }
+
+        .tmf {
+            color: #c8c8c8;
+            font-weight: 50;
+            font-size: 30rem;
+        }
+
+        .tmf_div {
+            padding: 25rem;
+        }
+
+        .end {
+            padding-bottom: calc(100vh - 650rem);
+        }
+
+        .hdc {
+            padding: 0;
+            margin: 0;
+        }
+
+        .cpp {
+            color: #4770AE;
+        }
+
+        *:focus, *:active, *:visited {
+            outline: none;
+        }
+    </style>
+</head>
+<body link="black" alink="black" vlink="black">
+    <header class="hh">
+        <center>
+            <div class="hhd">
+                <a href="javascript:location.replace('#')" class="hd">HOME</a>
+                <a href="javascript:location.replace('#about_me')" class="hd">ABOUT ME</a>
+                <a href="javascript:location.replace('#skills')" class="hd">SKILLS</a>
+                <a href="javascript:location.replace('#Projects')" class="hd">PROJECTS</a>
+                <a href="javascript:location.replace('#contact')" class="hd">CONTACT</a>
+            </div>
+        </center>
+    </header>
+
+    <div class="webpro">
+        <img src="img/miri.png" height="0" />
+        <div class="proti">
+            <a class="ckp">CREATIVE KOJAM</a>
+            <br />
+            <div class="tpfh">
+                <a class="ckp text_tpfh">POTRFOLIO</a>
+            </div>
+            <img src="img/icon.svg" style="width: 110rem;" />
+        </div>
+        <br />
+
+
+    </div>
+
+    <div class="hbd hb">
+
+        <a class="h1 h hdc">WEB PROGRAMER</a>
+        <br />
+        <a class="ckp cpp" style="text-shadow: 2rem 2rem 5rem #fff;">프로그래머가 되기 위해 노력중인 kojam_</a>
+
+    </div>
+
+    <center class="" style="height:100vh">
+
+        <a class="lpc" id="about_me"></a>
+        <br />
+
+        <table>
+            <tr>
+                <td>
+
+                    <div class="about">
+                        <a class="h2 h hdp">About me</a>
+                        <br />
+                        <img src="img/pic.png" class="pp" style="width: 358rem; height:430rem;" />
+                    </div>
+                </td>
+                <td style="vertical-align: bottom;">
+                    <div class="int">
+                        <a class="int_a">이름: 최재민</a>
+                        <br />
+                        <a class="int_a">생년월일: 2006.09.27</a>
+                        <br />
+                        <br />
+                        <a class="int_a" href="javascript:location.replace('#Projects')">프로그래밍 경험:</a>
+                        <br />
+                        <a class="int_a">2019.12 용호중 1학년 3반 학급 홈페이지 - yeelsam 개발</a>
+                        <br />
+                        <a class="int_a">2020.03 용호중학교 프로그래밍 동아리 PCC 동아리 설립 및 부장 담당</a>
+                        <br />
+                        <a class="int_a">2020.10 용호중 글자인식 출석체크 프로그램 개발</a>
+                        <br />
+                        <a class="int_a">2021.03 용호중학교 메이커 동아리 부장 및 프로그래밍 담당</a>
+                        <br />
+                        <a class="int_a">2021.04 용호중 시간표 프로그램 - YHMS 타임테이블 개발</a>
+                        <br />
+                        <a class="int_a">2021.05 디자인그룹 윤건축사사무소 홈페이지 개발</a>
+                        <br />
+                        <div class="tt">
+                            <a class="tag">#경력신입</a>
+                            <a class="tag">#웹퍼블리셔</a>
+                            <a class="tag" href="javascript:location.replace('#skills')">#특기는 프로그래밍</a>
+                            <a class="tag" href="javascript:location.replace('#Projects')">#취미는 웹 기획</a>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+
+
+    </center>
+
+
+    <center class="skl first" style="height:100vh">
+        <a class="lpc" id="skills"></a>
+        <br />
+        <a class="h2 h">I can do</a>
+        <br />
+        <br />
+        <img src="img/skills_1.png" class="skill" />
+        <img src="img/skills_2.png" class="skill" />
+        <img src="img/skills_3.png" class="skill" />
+        <br />
+        <div class="d">
+            <a class="h2 h">and I can also do</a>
+            <br />
+            <br />
+
+
+            <img src="img/skills_8.png" class="skill" />
+            <img src="img/skills_7.png" class="skill" />
+            <img src="img/skills_4.png" class="skill" />
+            <img src="img/skills_5.png" class="skill" />
+            <img src="img/skills_6.png" class="skill" />
+        </div>
+    </center>
+
+
+
+    <center class="first" style="height:100vh">
+        <a class="lpc" id="Projects"></a>
+        <br />
+        <a class="h2 h">Projects</a>
+        <br />
+        <br />
+        <a class="pt_button" name="safg">YHMS 타임테이블</a>
+        <a class="bar">&nbsp;|&nbsp;</a>
+        <a class="pt_button" name="safg">디자인그룹 윤건축사사무소</a>
+        <a class="bar">&nbsp;|&nbsp;</a>
+        <a class="pt_button" name="safg">제니 퀴즈</a>
+        <a class="bar">&nbsp;|&nbsp;</a>
+        <a class="pt_button" name="safg">글자인식 출석체크</a>
+        <a class="bar">&nbsp;|&nbsp;</a>
+        <a class="pt_button" name="safg">Yeelsam</a>
+        <script>
+            var sc = document.getElementsByName('safg');
+            for (var i = 0; i < sc.length; i++) {
+                sc[i].setAttribute('href', "javascript:show(" + Number(i + 1) + ");");
+            }
+        </script>
+        <br />
+        <br />
+        <div class="ptf" name="v" id="v">
+            <table>
+                <tr>
+                    <td style="width: 450rem;">
+                        <a class="h3">YHMS 타임테이블</a>
+                        <br />
+                        <br />
+                        <a>코로나로 인한 온라인 수업에서 불편하였던</a>
+                        <br />
+                        <a>시간표 확인과 시종, 팀즈 방 연결을 지원하는 사이트를 제작하였습니다.</a>
+                        <br />
+                        <br />
+                        <a>현재 용호중 전교로 도입되어 사용중입니다.</a>
+                        <br />
+                        <br />
+                        <a>사용 툴: VS code</a>
+                        <br />
+                        <a>참여도: 100%</a>
+                        <br />
+                        <a>소요 기간: 1달</a>
+                        <br />
+                        <input type="button" value="사이트 살펴보기" onclick="window.open('https://chicken-moo.com/yhms');" />
+                        <input type="button" value="GitHub" onclick="window.open('https://github.com/jeamin-0927/YHMS-TimeTable/');" style="margin-right: 5rem;" />
+
+
+                    </td>
+                    <td style="padding-left: 50rem;">
+                        <iframe width="500" height="300" scrolling="no" name="spc" src="img/compu.html?url=https://chicken-moo.com/yhms" frameborder="0"></iframe>
+
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="ptf" name="v" id="v">
+            <table>
+                <tr>
+                    <td style="width: 450rem;">
+                        <a class="h3">디자인그룹 윤건축사사무소</a>
+                        <br />
+                        <br />
+                        <a>디자인그룹 윤건축사사무소의 홈페이지 제작 의뢰를 받아</a>
+                        <br />
+                        <a>소개, 프로젝트, 연락처 등을 표시하는 사이트를 제작하였습니다.</a>
+                        <br />
+                        <br />
+                        <a>현재 디자인그룹 윤건축사사무소로 도입되어 사용중입니다.</a>
+                        <br />
+                        <br />
+                        <a>사용 툴: VS code</a>
+                        <br />
+                        <a>참여도: 100%</a>
+                        <br />
+                        <a>소요 기간: 2주일</a>
+                        <br />
+                        <!--
+                    <input type="button" value="제작과정" onclick="make('yhtt', 5);" style="margin-right: 5rem;" />
+                    -->
+                        <input type="button" value="사이트 살펴보기" onclick="window.open('http://yun-architects.com/');" />
+                        <input type="button" value="GitHub" onclick="window.open('https://github.com/jeamin-0927/YunArchi-hompage/');" style="margin-right: 5rem;" />
+
+                    </td>
+                    <td style="padding-left: 50rem;">
+                        <iframe width="500" height="300" scrolling="no" name="spc" src="img/compu.html?url=https://chicken-moo.com/yun-archi" frameborder="0"></iframe>
+
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="ptf" name="v" id="v">
+            <table>
+                <tr>
+                    <td style="width: 450rem;">
+                        <a class="h3">제니 퀴즈</a>
+                        <br />
+                        <br />
+                        <a>처음으로 JS를 다루었던 사이트입니다.</a>
+                        <br />
+                        <a>블랙핑크 제니에 관한 간단한 퀴즈 게임입니다.</a>
+                        <br />
+                        <br />
+                        <a>사용 툴: VS code</a>
+                        <br />
+                        <a>참여도: 100%</a>
+                        <br />
+                        <a>소요 기간: 1달</a>
+                        <br />
+                        <input type="button" value="사이트 살펴보기" onclick="window.open('https://chicken-moo.com/jennie');" />
+                    </td>
+                    <td style="padding-left: 50rem;">
+                        <iframe width="500" height="300" scrolling="no" name="spc" src="img/compu.html?url=https://chicken-moo.com/jennie" frameborder="0"></iframe>
+
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="ptf" name="v" id="v">
+            <table>
+                <tr>
+                    <td style="width: 450rem;">
+                        <a class="h3">글자인식 출석체크</a>
+                        <br />
+                        <br />
+                        <a>코로나로 인한 온라인 수업에서 선생님들께서 불편해 하셨던</a>
+                        <br />
+                        <a>팀즈 대형 갤러리 상의 출석체크를 하는 프로그램을 제작하였습니다.</a>
+                        <br />
+                        <br />
+                        <a>사용 툴: Visual Studio, PyCharm</a>
+                        <br />
+                        <a>참여도: 100%</a>
+                        <br />
+                        <a>소요 기간: 3달</a>
+                        <br />
+                        <input type="button" value="사이트 살펴보기" onclick="window.open('https://chicken-moo.com/programs/upgrade_chu');" />
+
+                    </td>
+                    <td style="padding-left: 50rem;">
+                        <iframe width="500" height="300" scrolling="no" name="spc" src="img/compu.html?url=https://chicken-moo.com/programs/upgrade_chu" frameborder="0"></iframe>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="ptf" name="v" id="v">
+            <table>
+                <tr>
+                    <td style="width: 450rem;">
+                        <a class="h3">Yeelsam</a>
+                        <br />
+                        <br />
+                        <a>1학년때, 정식 프로그래밍을 배우기 전</a>
+                        <br />
+                        <a>MS Word로 만들었던 웹 학급 홈페이지입니다</a>
+                        <br />
+                        <br />
+                        <a>사용 툴: MS Word</a>
+                        <br />
+                        <a>참여도: 100%</a>
+                        <br />
+                        <a>소요 기간: 1주일</a>
+                        <br />
+                        <input type="button" value="사이트 살펴보기" onclick="window.open('https://chicken-moo.com/web/yhms/yeelsam');" />
+
+                    </td>
+                    <td style="padding-left: 50rem;">
+                        <iframe width="500" height="300" scrolling="no" name="spc" src="img/compu.html?url=https://chicken-moo.com/web/yhms/yeelsam" frameborder="0"></iframe>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </center>
+    <script>
+        var number = Number(v.length);
+        for (var i = 0; i < number; i++) {
+            document.getElementsByName('v')[i].style.display = 'none';
+        }
+        document.getElementsByName('v')[0].style.display = 'inline-block';
+        function show(a) {
+            for (var i = 0; i < number; i++) {
+                document.getElementsByName('v')[i].style.display = 'none';
+            }
+            document.getElementsByName('v')[a - 1].style.display = 'inline-block';
+        }
+    </script>
+
+
+
+    <center class="end" style="height:100vh">
+        <div class="first">
+            <a class="lpc" id="contact"></a>
+            <br />
+            <a class="h2 h hdp">Contact</a>
+            <div class="tmf_div"><a class="tmf">/</a></div>
+            <a>연락처 : </a>
+            <a href="mailto:colajeamin@gmail.com">colajeamin@gmail.com</a>
+            <a>, </a>
+            <a href="tel:01095062709">010-9506-2709</a>
+            <br />
+            <img src="img/end.png" style="height: 500rem;" />
+            <br />
+
+        </div>
+    </center>
+</body>
+</html>

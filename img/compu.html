@@ -1,0 +1,23 @@
+﻿<div style="zoom:0.25; cursor:pointer;" onclick="window.open(getParam('url'));">
+    <img src="computer.svg" style="width: 1920px; position: absolute;" />
+    <iframe onclick="window.open(getParam('url'));" id="ifc" src="https://chicken-moo.com/yhms" frameborder="0" style="        
+        height: 830px;
+        width: 1700px;
+        background-color: #fff;
+        position: absolute;
+        transform: translate(110px, 90px);
+    " width="400" height="200"></iframe>
+</div>
+<script>
+    function getParam(sname) {
+        var params = location.search.substr(location.search.indexOf("?") + 1);
+        var sval = "";
+        params = params.split("&");
+        for (var i = 0; i < params.length; i++) {
+            temp = params[i].split("=");
+            if ([temp[0]] == sname) { sval = temp[1]; }
+        }
+        return sval;
+    }
+    document.getElementById('ifc').src = getParam('url');
+</script>
